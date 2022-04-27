@@ -13,6 +13,6 @@
 <li>default</li>
 </ol>
 
-<p>In main.go, we can set environment variables on a machine and using it with the higher precedence over yaml config file. If viper cannot map the environment variables it will look for yaml config file instead.</p>
+<p>In main.go, we can set environment variables on a machine and use it with the higher precedence over yaml config file. If viper cannot map the environment variables it will look for yaml config file instead.</p>
 
 **Be careful of data loss in case both env and yaml config file is not set.**
